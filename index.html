@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D website</title>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h3 data-aos="fade-down" class="hero">Scooby</h3>
+        <nav class="navigation" >
+            <ul data-aos="fade-down">
+                <li><a id="home" href="#">Home</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Source</a></li>
+                <li><a href="#">Links</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-content">
+        <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="text-content">
+            <h2>Discovery serenity with Untitled 3D</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem quis voluptate laboriosam minima
+                illum nam eius fuga necessitatibus natus error? Laudantium harum, temporibus vitae doloribus deserunt
+                neque voluptatibus? Ullam, iusto?</p>
+            <div class="learn-more-btn">
+                <button><a href="#">Learn more</a></button>
+                <button><a href="#">Creative</a></button>
+            </div>
+            <div class="start">
+
+                <button><span class="dot"></span>Start your Project</button>
+            </div>
+        </div>
+
+        <spline-viewer data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500" class="design" url="https://prod.spline.design/VKA3G6zgp4pBOpzK/scene.splinecode"></spline-viewer>
+    </div>
+    <div class="second-content">
+
+    </div>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.32/build/spline-viewer.js"></script>
+
+</body>
+
+</html>
