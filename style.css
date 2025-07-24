@@ -85,8 +85,64 @@ body{
     color: white;
     text-decoration: none;
     font-size: 15px;
-
+    
 }
+
+.about-section {
+    max-width: 900px;
+    margin: 60px auto 0 auto;
+    padding: 40px 24px;
+    background: rgba(20, 20, 20, 0.85);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    color: #fff;
+    text-align: center;
+}
+.about-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+.about-section p {
+    font-size: 1.1rem;
+    margin-bottom: 32px;
+    color: #e0e0e0;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+}
+.info-card {
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    padding: 28px 22px;
+    width: 260px;
+    color: #fff;
+    transition: transform 0.25s cubic-bezier(.4,2,.6,1), box-shadow 0.25s;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid transparent;
+}
+.info-card:hover, .info-card:focus {
+    transform: translateY(-10px) scale(1.04) rotate(-1deg);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.28);
+    border-color: #00ffd0;
+    background: linear-gradient(135deg, #232526 0%, #00ffd0 100%);
+    color: #232526;
+}
+.info-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.info-card p {
+    font-size: 1rem;
+    color: inherit;
+}
+
 .start button{
     padding: 8px 20px;
     font-size: 16px;
